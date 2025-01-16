@@ -13,6 +13,7 @@
         "packagesPath": "/Users/tyler/.nuget/packages/",
         "outputPath": "/Users/tyler/Repos/To-Do-Web-App/Backend/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/tyler/.nuget/NuGet/NuGet.Config"
         ],
@@ -38,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
