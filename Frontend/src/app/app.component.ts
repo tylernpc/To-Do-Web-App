@@ -23,4 +23,8 @@ export class AppComponent {
   populateTodoList() {
     this.todo = this.backend.todo(this.id);
   }
+
+  trackById(index: number, todoItem: Todo): number {
+    return todoItem.id;
+  }
 }

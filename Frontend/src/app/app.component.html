@@ -1,11 +1,11 @@
 <h1>Frontend</h1>
 
-@for(todoItem of todo | async; track $index) {
-<tr>
-  <td>
-    <a {{todoItem.id}}> {{ todoItem.title }} </a>(Age: {{ todoItem.isCompleted }})
-  </td>
-</tr>
-}
+<table>
+  <tr *ngFor="let todoItem of todo | async; trackBy: trackById">
+    <td>
+      <a [href]="'/todo/' + todoItem.id">{{ todoItem.title }}</a> (Age: {{ todoItem.isCompleted }})
+    </td>
+  </tr>
+</table>
 
 <router-outlet></router-outlet>
