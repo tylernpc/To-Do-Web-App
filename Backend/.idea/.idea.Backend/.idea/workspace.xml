@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c0a96f5-46eb-4587-b1bc-6f96f792b79a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.http" beforeDir="false" afterPath="$PROJECT_DIR$/Backend.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/TodoController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Todo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/Backend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/Backend.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/Backend.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/Backend.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/Backend.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/Backend.staticwebassets.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Backend.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Backend.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Backend.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Backend.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Backend.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Backend.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.csproj.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/Backend.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/Backend.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/Backend.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.build.Backend.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Backend.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Backend.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tylernpc"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:tylernpc/To-Do-Web-App.git",
+    "accountId": "e15a29ab-2b90-4086-9c0b-bdc24aa1f264"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2rlTKkRxIVAJa48tnVr976WLfa6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c0a96f5-46eb-4587-b1bc-6f96f792b79a" name="Changes" comment="" />
+      <created>1737132599491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737132599491</updated>
+      <workItem from="1737132600905" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
