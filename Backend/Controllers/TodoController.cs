@@ -58,4 +58,19 @@ public class TodoController : ControllerBase
         return CreatedAtAction(nameof(GetTodo), new { id = todoItem.Id }, todoItem);
     }
 
+    [HttpPut("items/{id}")]
+    public IActionResult UpdateTodo([FromRoute] int id, [FromBody] Todo updatedTodo)
+    {
+        var todoItem = todo.SingleOrDefault(x => x.Id == id);
+        
+        if (todoItem == null)
+        {
+            return NotFound();
+        }
+
+        todoItem.Title = updatedTodo.Title;
+        todoItem.IsCompleted = updatedTodo.IsCompleted;
+        
+        return NoContent();
+    }
 }

@@ -15,7 +15,8 @@ import { Todo } from './models/todo.model';
 export class AppComponent {
   todo?: Observable<Todo[]> = of([]);
   id!: number;
-  newTodoTitle: string = ''; 
+  newTodoTitle: string = '';
+  selectedTodo?: Todo; // Add a property to store the selected Todo to update
 
   constructor(private backend: BackendService) {
     this.populateTodoList();
@@ -38,5 +39,25 @@ export class AppComponent {
         this.newTodoTitle = '';
       });
     }
+  }
+
+  updateTodoItem() {
+    if (this.selectedTodo) {
+      this.selectedTodo.isCompleted = !this.selectedTodo.isCompleted;
+
+      this.backend.updateTodo(this.selectedTodo).subscribe(
+        (updatedTodo) => {
+          this.populateTodoList();
+        },
+        (error) => {
+          console.error('Error updating Todo:', error);
+        }
+      );
+    }
+  }
+
+  // short method for selecting items
+  selectTodoToUpdate(todo: Todo) {
+    this.selectedTodo = { ...todo };
   }
 }

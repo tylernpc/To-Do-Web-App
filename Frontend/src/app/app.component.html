@@ -6,7 +6,15 @@
 
   <ul>
     <li *ngFor="let item of todo | async">
-      {{ item.title }} - {{ item.isCompleted ? 'Completed' : 'Pending' }}
+      <span>{{ item.title }} - {{ item.isCompleted ? 'Completed' : 'Pending' }}</span>
+      <button (click)="selectTodoToUpdate(item)">Edit</button>
     </li>
   </ul>
+
+  <!-- Update Todo Section -->
+  <div *ngIf="selectedTodo">
+    <h2>Update Todo</h2>
+    <input [(ngModel)]="selectedTodo.title" placeholder="Update Todo title" />
+    <button (click)="updateTodoItem()">Update</button>
+  </div>
 </div>

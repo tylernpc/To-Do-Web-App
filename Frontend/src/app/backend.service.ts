@@ -32,4 +32,8 @@ export class BackendService {
   createTodo(newTodo: Todo): Observable<Todo> {
     return this.http.post<Todo>(`${this.uri}/Todo`, newTodo);
   }
+
+  updateTodo(updateTodo: Todo): Observable<Todo> {
+    return this.http.put<Todo>(`${this.uri}/Todo/items/${updateTodo.id}`, updateTodo);
+  }
 }
