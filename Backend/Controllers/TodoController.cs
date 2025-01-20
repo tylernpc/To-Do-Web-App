@@ -41,4 +41,21 @@ public class TodoController : ControllerBase
         };
         return new Todo[] { response };
     }
+
+    [HttpPost]
+    public IActionResult CreateTodo([FromBody] Todo newTodo)
+    {
+        var newId = todo.Max(x => x.Id) + 1;
+
+        var todoItem = new Todo
+        {
+            Id = newId,
+            Title = newTodo.Title,
+            IsCompleted = newTodo.IsCompleted
+        };
+        todo = todo.Concat(new[] { todoItem }).ToArray();
+
+        return CreatedAtAction(nameof(GetTodo), new { id = todoItem.Id }, todoItem);
+    }
+
 }
