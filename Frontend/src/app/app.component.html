@@ -1,11 +1,12 @@
-<h1>Frontend</h1>
+<div>
+  <h1>Todo List</h1>
 
-<table>
-  <tr *ngFor="let todoItem of todo | async">
-    <td>
-      <a [href]="'/todo/' + todoItem.id">{{ todoItem.title }}</a> (Completed: {{ todoItem.isCompleted }})
-    </td>
-  </tr>
-</table>
+  <input [(ngModel)]="newTodoTitle" placeholder="New Todo" />
+  <button (click)="createTodoItem()">Add Todo</button>
 
-<router-outlet></router-outlet>
+  <ul>
+    <li *ngFor="let item of todo | async">
+      {{ item.title }} - {{ item.isCompleted ? 'Completed' : 'Pending' }}
+    </li>
+  </ul>
+</div>

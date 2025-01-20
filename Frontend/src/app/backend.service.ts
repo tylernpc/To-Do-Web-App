@@ -28,4 +28,8 @@ export class BackendService {
   todoItems(id: number) {
     return this.http.get<TodoResponse>(`${this.uri}/Todo/items/${id}`);
   }
+
+  createTodo(newTodo: Todo): Observable<Todo> {
+    return this.http.post<Todo>(`${this.uri}/Todo`, newTodo);
+  }
 }
