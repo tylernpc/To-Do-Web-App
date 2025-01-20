@@ -1,9 +1,9 @@
 <h1>Frontend</h1>
 
 <table>
-  <tr *ngFor="let todoItem of todo | async; trackBy: trackById">
+  <tr *ngFor="let todoItem of todo | async">
     <td>
-      <a [href]="'/todo/' + todoItem.id">{{ todoItem.title }}</a> (Age: {{ todoItem.isCompleted }})
+      <a [href]="'/todo/' + todoItem.id">{{ todoItem.title }}</a> (Completed: {{ todoItem.isCompleted }})
     </td>
   </tr>
 </table>
