@@ -84,7 +84,7 @@ public class TodoController : ControllerBase
             return NotFound();
         }
 
-        DeleteTodo(id);
+        todo = todo.Where(x => x.Id != id).ToArray();
         return NoContent();
     }
 }

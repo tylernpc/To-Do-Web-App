@@ -16,7 +16,7 @@ export class AppComponent {
   todo?: Observable<Todo[]> = of([]);
   id!: number;
   newTodoTitle: string = '';
-  selectedTodo?: Todo; // Add a property to store the selected Todo to update
+  selectedTodo?: Todo;
 
   constructor(private backend: BackendService) {
     this.populateTodoList();
@@ -56,8 +56,19 @@ export class AppComponent {
     }
   }
 
-  // short method for selecting items
+  // short method for selecting items to update
   selectTodoToUpdate(todo: Todo) {
     this.selectedTodo = { ...todo };
+  }
+
+  deleteTodoItem(id: number) {
+    this.backend.deleteTodo(id).subscribe(
+      () => {
+        this.populateTodoList();
+      },
+      (error) => {
+        console.error('Error deleting Todo:', error);
+      }
+    );
   }
 }
